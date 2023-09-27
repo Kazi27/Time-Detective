@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: f48bdefdcbaa779498f3681fe52ccf6a
+timeCreated: 1546669851
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: candles
+    100002: //RootNode
+    100004: group10
+    100006: group11
+    100008: group2
+    100010: group3
+    100012: group4
+    100014: group5
+    100016: group6
+    100018: group7
+    100020: group8
+    100022: group9
+    100024: group9 1
+    100026: group9 2
+    100028: hook
+    100030: hook 1
+    100032: hook 2
+    100034: pCylinder1
+    100036: pCylinder2
+    100038: pCylinder2 1
+    100040: pCylinder2 2
+    100042: pCylinder2 3
+    100044: pCylinder2 4
+    100046: pCylinder2 5
+    100048: pCylinder3
+    100050: pCylinder3 1
+    100052: pCylinder3 2
+    100054: pCylinder4
+    100056: pCylinder4 1
+    100058: pCylinder4 2
+    100060: pCylinder5
+    100062: pCylinder5 1
+    100064: pCylinder5 2
+    100066: pCylinder6
+    100068: pCylinder7
+    100070: pCylinder8
+    100072: polySurface2
+    100074: polySurface2 1
+    100076: polySurface2 2
+    100078: polySurface2 3
+    100080: polySurface2 4
+    100082: polySurface2 5
+    100084: strings
+    100086: candle_jar1
+    100088: candle_jar1 1
+    100090: candle_jar1 2
+    100092: candle_jar1 3
+    100094: candle_jar1 4
+    100096: candle_jar1 5
+    100098: candle_jars
+    100100: group1
+    100102: group12
+    100104: hook1
+    100106: hook2
+    100108: hook_disc
+    100110: joint1
+    100112: joint2
+    100114: joint3
+    100116: joint_bar
+    100118: joint_bar 1
+    100120: joint_bar 2
+    100122: joint_hook1
+    100124: joint_hook1 1
+    100126: joint_hook1 2
+    100128: joint_hook2
+    100130: joint_hook2 1
+    100132: joint_hook2 2
+    100134: joint_hook3
+    100136: joint_hook3 1
+    100138: joint_hook3 2
+    100140: metal_joint1
+    100142: metal_joint1 1
+    100144: metal_joint1 2
+    100146: metal_joint1 3
+    100148: metal_joint1 4
+    100150: metal_joint1 5
+    100152: ring_joints
+    100154: wooden_ring
+    100156: chandelier_candle_jars
+    100158: chandelier_hook_disc
+    100160: chandelier_joint1_joint
+    100162: chandelier_ring_joints
+    400000: candles
+    400002: //RootNode
+    400004: group10
+    400006: group11
+    400008: group2
+    400010: group3
+    400012: group4
+    400014: group5
+    400016: group6
+    400018: group7
+    400020: group8
+    400022: group9
+    400024: group9 1
+    400026: group9 2
+    400028: hook
+    400030: hook 1
+    400032: hook 2
+    400034: pCylinder1
+    400036: pCylinder2
+    400038: pCylinder2 1
+    400040: pCylinder2 2
+    400042: pCylinder2 3
+    400044: pCylinder2 4
+    400046: pCylinder2 5
+    400048: pCylinder3
+    400050: pCylinder3 1
+    400052: pCylinder3 2
+    400054: pCylinder4
+    400056: pCylinder4 1
+    400058: pCylinder4 2
+    400060: pCylinder5
+    400062: pCylinder5 1
+    400064: pCylinder5 2
+    400066: pCylinder6
+    400068: pCylinder7
+    400070: pCylinder8
+    400072: polySurface2
+    400074: polySurface2 1
+    400076: polySurface2 2
+    400078: polySurface2 3
+    400080: polySurface2 4
+    400082: polySurface2 5
+    400084: strings
+    400086: candle_jar1
+    400088: candle_jar1 1
+    400090: candle_jar1 2
+    400092: candle_jar1 3
+    400094: candle_jar1 4
+    400096: candle_jar1 5
+    400098: candle_jars
+    400100: group1
+    400102: group12
+    400104: hook1
+    400106: hook2
+    400108: hook_disc
+    400110: joint1
+    400112: joint2
+    400114: joint3
+    400116: joint_bar
+    400118: joint_bar 1
+    400120: joint_bar 2
+    400122: joint_hook1
+    400124: joint_hook1 1
+    400126: joint_hook1 2
+    400128: joint_hook2
+    400130: joint_hook2 1
+    400132: joint_hook2 2
+    400134: joint_hook3
+    400136: joint_hook3 1
+    400138: joint_hook3 2
+    400140: metal_joint1
+    400142: metal_joint1 1
+    400144: metal_joint1 2
+    400146: metal_joint1 3
+    400148: metal_joint1 4
+    400150: metal_joint1 5
+    400152: ring_joints
+    400154: wooden_ring
+    400156: chandelier_candle_jars
+    400158: chandelier_hook_disc
+    400160: chandelier_joint1_joint
+    400162: chandelier_ring_joints
+    2100000: lambert1
+    2100002: joint_mat
+    2100004: ring_hook
+    2100006: hook_curve
+    2100008: jar_base
+    2100010: candle_jar
+    2100012: wooden_ring_mat
+    2100014: hook_top_mat
+    2100016: hook_disc_mat
+    2100018: lambert2
+    2300000: hook
+    2300002: hook 1
+    2300004: hook 2
+    2300006: pCylinder1
+    2300008: pCylinder2
+    2300010: pCylinder2 1
+    2300012: pCylinder2 2
+    2300014: pCylinder2 3
+    2300016: pCylinder2 4
+    2300018: pCylinder2 5
+    2300020: pCylinder3
+    2300022: pCylinder3 1
+    2300024: pCylinder3 2
+    2300026: pCylinder4
+    2300028: pCylinder4 1
+    2300030: pCylinder4 2
+    2300032: pCylinder5
+    2300034: pCylinder5 1
+    2300036: pCylinder5 2
+    2300038: pCylinder6
+    2300040: pCylinder7
+    2300042: pCylinder8
+    2300044: polySurface2
+    2300046: polySurface2 1
+    2300048: polySurface2 2
+    2300050: polySurface2 3
+    2300052: polySurface2 4
+    2300054: polySurface2 5
+    2300056: candle_jar1
+    2300058: candle_jar1 1
+    2300060: candle_jar1 2
+    2300062: candle_jar1 3
+    2300064: candle_jar1 4
+    2300066: candle_jar1 5
+    2300068: hook1
+    2300070: hook2
+    2300072: hook_disc
+    2300074: joint_bar
+    2300076: joint_bar 1
+    2300078: joint_bar 2
+    2300080: joint_hook1
+    2300082: joint_hook1 1
+    2300084: joint_hook1 2
+    2300086: joint_hook2
+    2300088: joint_hook2 1
+    2300090: joint_hook2 2
+    2300092: joint_hook3
+    2300094: joint_hook3 1
+    2300096: joint_hook3 2
+    2300098: metal_joint1
+    2300100: metal_joint1 1
+    2300102: metal_joint1 2
+    2300104: metal_joint1 3
+    2300106: metal_joint1 4
+    2300108: metal_joint1 5
+    2300110: wooden_ring
+    2300112: chandelier_candle_jars
+    2300114: chandelier_hook_disc
+    2300116: chandelier_joint1_joint
+    2300118: chandelier_ring_joints
+    3300000: hook
+    3300002: hook 1
+    3300004: hook 2
+    3300006: pCylinder1
+    3300008: pCylinder2
+    3300010: pCylinder2 1
+    3300012: pCylinder2 2
+    3300014: pCylinder2 3
+    3300016: pCylinder2 4
+    3300018: pCylinder2 5
+    3300020: pCylinder3
+    3300022: pCylinder3 1
+    3300024: pCylinder3 2
+    3300026: pCylinder4
+    3300028: pCylinder4 1
+    3300030: pCylinder4 2
+    3300032: pCylinder5
+    3300034: pCylinder5 1
+    3300036: pCylinder5 2
+    3300038: pCylinder6
+    3300040: pCylinder7
+    3300042: pCylinder8
+    3300044: polySurface2
+    3300046: polySurface2 1
+    3300048: polySurface2 2
+    3300050: polySurface2 3
+    3300052: polySurface2 4
+    3300054: polySurface2 5
+    3300056: candle_jar1
+    3300058: candle_jar1 1
+    3300060: candle_jar1 2
+    3300062: candle_jar1 3
+    3300064: candle_jar1 4
+    3300066: candle_jar1 5
+    3300068: hook1
+    3300070: hook2
+    3300072: hook_disc
+    3300074: joint_bar
+    3300076: joint_bar 1
+    3300078: joint_bar 2
+    3300080: joint_hook1
+    3300082: joint_hook1 1
+    3300084: joint_hook1 2
+    3300086: joint_hook2
+    3300088: joint_hook2 1
+    3300090: joint_hook2 2
+    3300092: joint_hook3
+    3300094: joint_hook3 1
+    3300096: joint_hook3 2
+    3300098: metal_joint1
+    3300100: metal_joint1 1
+    3300102: metal_joint1 2
+    3300104: metal_joint1 3
+    3300106: metal_joint1 4
+    3300108: metal_joint1 5
+    3300110: wooden_ring
+    3300112: chandelier_candle_jars
+    3300114: chandelier_hook_disc
+    3300116: chandelier_joint1_joint
+    3300118: chandelier_ring_joints
+    4300000: pCylinder3
+    4300002: pCylinder5
+    4300004: pCylinder4
+    4300006: hook
+    4300008: pCylinder3
+    4300010: pCylinder5
+    4300012: pCylinder4
+    4300014: hook
+    4300016: pCylinder3
+    4300018: pCylinder5
+    4300020: pCylinder4
+    4300022: hook
+    4300024: polySurface2
+    4300026: pCylinder2
+    4300028: polySurface2
+    4300030: pCylinder2
+    4300032: polySurface2
+    4300034: pCylinder2
+    4300036: polySurface2
+    4300038: pCylinder2
+    4300040: polySurface2
+    4300042: pCylinder2
+    4300044: polySurface2
+    4300046: pCylinder2
+    4300048: pCylinder1
+    4300050: pCylinder8
+    4300052: pCylinder7
+    4300054: pCylinder6
+    4300056: joint_bar
+    4300058: joint_hook1
+    4300060: joint_hook2
+    4300062: joint_hook3
+    4300064: joint_bar
+    4300066: joint_hook1
+    4300068: joint_hook2
+    4300070: joint_hook3
+    4300072: joint_bar
+    4300074: joint_hook1
+    4300076: joint_hook2
+    4300078: joint_hook3
+    4300080: metal_joint1
+    4300082: metal_joint1
+    4300084: metal_joint1
+    4300086: metal_joint1
+    4300088: metal_joint1
+    4300090: metal_joint1
+    4300092: candle_jar1
+    4300094: candle_jar1
+    4300096: candle_jar1
+    4300098: candle_jar1
+    4300100: candle_jar1
+    4300102: candle_jar1
+    4300104: wooden_ring
+    4300106: hook1
+    4300108: hook2
+    4300110: hook_disc
+    4300112: chandelier_ring_joints
+    4300114: chandelier_candle_jars
+    4300116: chandelier_hook_disc
+    4300118: chandelier_joint1_joint
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

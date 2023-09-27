@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 8d21d1605928a4d46b68ae5628341f42
+timeCreated: 1546254686
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: frame1
+    100004: frame1 1
+    100006: frame1 2
+    100008: frame1 3
+    100010: frame1 4
+    100012: frame1 5
+    100014: frame1 6
+    100016: frame1 7
+    100018: frames
+    100020: group1
+    100022: group2
+    100024: group3
+    100026: group4
+    100028: group5
+    100030: group6
+    100032: group7
+    100034: group8
+    100036: roof1
+    100038: roof2
+    100040: roof3
+    100042: roof4
+    100044: roof5
+    100046: roof6
+    100048: roof7
+    100050: roof8
+    100052: roofs
+    100054: group10
+    100056: group11
+    100058: group12
+    100060: group13
+    100062: group14
+    100064: group15
+    100066: group16
+    100068: group16 1
+    100070: group16 2
+    100072: group16 3
+    100074: group17
+    100076: group17 1
+    100078: group17 2
+    100080: group17 3
+    100082: group18
+    100084: group18 1
+    100086: group19
+    100088: group19 1
+    100090: group20
+    100092: group21
+    100094: group9
+    100096: roof 1
+    100098: roof 2
+    100100: roof 3
+    100102: roof 4
+    100104: roof 5
+    100106: roof 6
+    100108: roof 7
+    100110: roof 8
+    100112: frame2
+    100114: frame3
+    100116: frame4
+    100118: frame5
+    100120: frame6
+    100122: frame7
+    100124: frame8
+    100126: roof_top1
+    100128: roof_top2
+    100130: roof_top3
+    100132: roof_top4
+    400000: //RootNode
+    400002: frame1
+    400004: frame1 1
+    400006: frame1 2
+    400008: frame1 3
+    400010: frame1 4
+    400012: frame1 5
+    400014: frame1 6
+    400016: frame1 7
+    400018: frames
+    400020: group1
+    400022: group2
+    400024: group3
+    400026: group4
+    400028: group5
+    400030: group6
+    400032: group7
+    400034: group8
+    400036: roof1
+    400038: roof2
+    400040: roof3
+    400042: roof4
+    400044: roof5
+    400046: roof6
+    400048: roof7
+    400050: roof8
+    400052: roofs
+    400054: group10
+    400056: group11
+    400058: group12
+    400060: group13
+    400062: group14
+    400064: group15
+    400066: group16
+    400068: group16 1
+    400070: group16 2
+    400072: group16 3
+    400074: group17
+    400076: group17 1
+    400078: group17 2
+    400080: group17 3
+    400082: group18
+    400084: group18 1
+    400086: group19
+    400088: group19 1
+    400090: group20
+    400092: group21
+    400094: group9
+    400096: roof 1
+    400098: roof 2
+    400100: roof 3
+    400102: roof 4
+    400104: roof 5
+    400106: roof 6
+    400108: roof 7
+    400110: roof 8
+    400112: frame2
+    400114: frame3
+    400116: frame4
+    400118: frame5
+    400120: frame6
+    400122: frame7
+    400124: frame8
+    400126: roof_top1
+    400128: roof_top2
+    400130: roof_top3
+    400132: roof_top4
+    2100000: lambert1
+    2300000: frame1
+    2300002: frame1 1
+    2300004: frame1 2
+    2300006: frame1 3
+    2300008: frame1 4
+    2300010: frame1 5
+    2300012: frame1 6
+    2300014: frame1 7
+    2300016: roof1
+    2300018: roof2
+    2300020: roof3
+    2300022: roof4
+    2300024: roof5
+    2300026: roof6
+    2300028: roof7
+    2300030: roof8
+    2300032: roof 1
+    2300034: roof 2
+    2300036: roof 3
+    2300038: roof 4
+    2300040: roof 5
+    2300042: roof 6
+    2300044: roof 7
+    2300046: roof 8
+    2300048: //RootNode
+    2300050: frame2
+    2300052: frame3
+    2300054: frame4
+    2300056: frame5
+    2300058: frame6
+    2300060: frame7
+    2300062: frame8
+    2300064: roof_top1
+    2300066: roof_top2
+    2300068: roof_top3
+    2300070: roof_top4
+    3300000: frame1
+    3300002: frame1 1
+    3300004: frame1 2
+    3300006: frame1 3
+    3300008: frame1 4
+    3300010: frame1 5
+    3300012: frame1 6
+    3300014: frame1 7
+    3300016: roof1
+    3300018: roof2
+    3300020: roof3
+    3300022: roof4
+    3300024: roof5
+    3300026: roof6
+    3300028: roof7
+    3300030: roof8
+    3300032: roof 1
+    3300034: roof 2
+    3300036: roof 3
+    3300038: roof 4
+    3300040: roof 5
+    3300042: roof 6
+    3300044: roof 7
+    3300046: roof 8
+    3300048: //RootNode
+    3300050: frame2
+    3300052: frame3
+    3300054: frame4
+    3300056: frame5
+    3300058: frame6
+    3300060: frame7
+    3300062: frame8
+    3300064: roof_top1
+    3300066: roof_top2
+    3300068: roof_top3
+    3300070: roof_top4
+    4300000: roof2
+    4300002: roof3
+    4300004: roof4
+    4300006: roof5
+    4300008: roof6
+    4300010: roof7
+    4300012: roof8
+    4300014: roof1
+    4300016: frame1
+    4300018: frame1
+    4300020: frame1
+    4300022: frame1
+    4300024: frame1
+    4300026: frame1
+    4300028: frame1
+    4300030: frame1
+    4300032: roof
+    4300034: roof
+    4300036: roof
+    4300038: roof
+    4300040: roof
+    4300042: roof
+    4300044: roof
+    4300046: roof
+    4300048: frame2
+    4300050: frame3
+    4300052: frame4
+    4300054: frame5
+    4300056: frame6
+    4300058: frame7
+    4300060: frame8
+    4300062: roof_top1
+    4300064: roof_top2
+    4300066: roof_top3
+    4300068: roof_top4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
