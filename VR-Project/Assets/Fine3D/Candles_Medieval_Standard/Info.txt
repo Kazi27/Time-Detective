@@ -1,0 +1,15 @@
+How to use the CandlesMedievalStandard pack
+
+1. When importing the pack for the first time, Unity will give some errors inside the console about the LOD's
+	- just clear and ignore them; it's a personal choice of mine to export the LOD's individually and it doesn't affect the asset in any way (at least not from what I know of)
+
+2. Some steps you need to take in order to make everything work:
+- in Project Settings / Player / Rendering dropdown, change the Color Space to Linear
+- In Project Settings / Quality / Other, change the Lod Bias to 3. If you don't want to change this due to your other props LOD's, just change the LOD's distances of the prefabs
+- install the post processing stack v2 from the Window / Package manager
+
+
+3. The texture ps_candle_flame_1_AB and the camera controller are used from the Unity Particle Pack that is free
+	- link: https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-particle-pack-127325
+
+For any doubts please join the Discord channel:
