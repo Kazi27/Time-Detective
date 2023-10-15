@@ -8154,7 +8154,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_Name
-      value: Dragon
+      value: Spiral Dragon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalScale.x
@@ -8170,31 +8170,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.0860813
+      value: 33.65
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.42573166
+      value: -0.426
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.033056974
+      value: -7.378
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5
+      value: 0.59636784
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.5
+      value: -0.59636784
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: -0.37992823
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: -0.37992823
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8202,7 +8202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: -65
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8eaac18273479cf4fa36fcd612157570, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -9530,7 +9530,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 9ca7068e92429ea4084e6c106cd9c509, type: 3}
       propertyPath: m_Name
-      value: DragonStatue_LOD0
+      value: Golden Dragon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9ca7068e92429ea4084e6c106cd9c509, type: 3}
       propertyPath: m_LocalScale.x
@@ -12866,7 +12866,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 09d7480794017b24bb74b50fc337a3e7, type: 3}
       propertyPath: m_Name
-      value: LionStatue
+      value: Right Lion Statue
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 09d7480794017b24bb74b50fc337a3e7, type: 3}
       propertyPath: m_LocalScale.x
