@@ -35,6 +35,18 @@ public class light_puzzle : MonoBehaviour
     {
         light1.SetActive(!light1.activeSelf);
     }
+    public void Toggle2()
+    {
+        light2.SetActive(!light2.activeSelf);
+    }
+    public void Toggle3()
+    {
+        light3.SetActive(!light3.activeSelf);
+    }
+    public void Toggle4()
+    {
+        light4.SetActive(!light4.activeSelf);
+    }
 }
 
 
