@@ -5,55 +5,34 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class light_puzzle : MonoBehaviour
 {
-    public GameObject light2;
-    public GameObject light3;
-    //public GameObject light3;
-    //public GameObject light4;
+    public Light light2;
+    public Light light3;
+  
 
-    //public bool isOn = false;
+    public bool isOn = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        light2 = GameObject.Find("Light2");
-        light3 = GameObject.Find("Light3");
-        //light3 = GameObject.Find("Point Light 3");
-        //light4 = GameObject.Find("Point Light 4");
-
-        //light1.SetActive(false);
-        //light2.SetActive(false);
-        //light3.SetActive(false);
-        //light4.SetActive(false);
+        light2.enabled = isOn;
+        light3.enabled = isOn;
     }
 
-    //Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        // Check for button press in your VR controller
-        // For example, using the Input.GetButtonDown method
-        if (Input.GetButtonDown("Push Button 1"))
+        // Check if the collider is the VR button's collider
+        if (other.CompareTag("Button1"))
         {
-            Toggle2();
-            Toggle3();
+            ToggleLight();
         }
     }
 
-    public void Toggle2()
+    public void ToggleLight()
     {
-        light2.SetActive(!light2.activeSelf);
+        isOn = !isOn;
+        light2.enabled = isOn;
+        light3.enabled = isOn;
     }
-    public void Toggle3()
-    {
-        light3.SetActive(!light3.activeSelf);
-    }
-    //public void Toggle3()
-    //{
-    //    light3.SetActive(!light3.activeSelf);
-    //}
-    //public void Toggle4()
-    //{
-    //    light4.SetActive(!light4.activeSelf);
-    //}
 }
 
 
