@@ -9398,7 +9398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a7a5f6ea9bc3471e889a74136996b34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: DaVinci3
+  sceneName: Egypt
 --- !u!135 &874349630
 SphereCollider:
   m_ObjectHideFlags: 0
