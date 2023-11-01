@@ -24,33 +24,10 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 0.6, y: 0.6}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 343f80e4bc1f2b94eabb296e36310457, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
-        m_Offset: {x: 0, y: 0}
-    - _HeightMap:
-        m_Texture: {fileID: 2800000, guid: eb3d074367f03be47b52c906dc93e771, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 0.6, y: 0.6}
-        m_Offset: {x: 0, y: 0}
-    - _RMHA:
-        m_Texture: {fileID: 2800000, guid: 13ee5f2360542854db4c9aba3b16f4f3, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _ProjectionMapping: 1
-    m_Colors:
-    - _BaseColor: {r: 0.38679248, g: 0.1860262, b: 0.031016383, a: 1}
-    - _Color: {r: 0.38679245, g: 0.18602616, b: 0.031016383, a: 1}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &8467139104108153261
 MonoBehaviour:
