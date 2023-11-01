@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 2
+  m_CurrentQuality: 1
   m_QualitySettings:
   - serializedVersion: 3
     name: Performant
@@ -68,19 +68,19 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 0
-    skinWeights: 4
+    skinWeights: 2
     globalTextureMipmapLimit: 0
     textureMipmapLimitSettings: []
-    anisotropicTextures: 1
-    antiAliasing: 0
+    anisotropicTextures: 2
+    antiAliasing: 4
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
     useLegacyDetailDistribution: 1
-    vSyncCount: 1
+    vSyncCount: 0
     realtimeGICPUUsage: 25
-    lodBias: 1
+    lodBias: 2
     maximumLODLevel: 0
     enableLODCrossFade: 1
     streamingMipmapsActive: 0
