@@ -5258,9 +5258,9 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390020898}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 4370d4e609f1a4807a352a58c24e9339, type: 2}
+  m_Animation: {fileID: 7400000, guid: eff8516a3be384a08a5f7c0683efc7a6, type: 2}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
@@ -13874,7 +13874,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 3bf5eaaf019184f93888511cab7bc810, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: dd4f60bc2e10044cf89af17d991fec8d, type: 2}
+      objectReference: {fileID: 9100000, guid: 5f9cf38c1fc204456ba3a86329519685, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14255,7 +14255,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 3bf5eaaf019184f93888511cab7bc810, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: dd4f60bc2e10044cf89af17d991fec8d, type: 2}
+      objectReference: {fileID: 9100000, guid: 5f9cf38c1fc204456ba3a86329519685, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
