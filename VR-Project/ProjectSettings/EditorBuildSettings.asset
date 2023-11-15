@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/VR Starter Scene.unity
     guid: 244e7bb23377d430babd3b979f782412
-  - enabled: 1
+  - enabled: 0
     path: Assets/Egypt/Egypt_Scene/Demo/Demo_Scene/Egypt_Scene.unity
     guid: 1c6d75eaa80797041a20dd6a10c1f6d2
   - enabled: 1
