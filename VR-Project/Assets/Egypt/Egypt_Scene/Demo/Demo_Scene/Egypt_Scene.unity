@@ -44230,6 +44230,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 153982007679157697, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
         type: 3}
+      propertyPath: m_MoveSpeed
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 153982007679157697, guid: f6336ac4ac8b4d34bc5072418cdc62a0,
+        type: 3}
       propertyPath: m_GravityApplicationMode
       value: 1
       objectReference: {fileID: 0}
