@@ -5793,6 +5793,33 @@ Transform:
   - {fileID: 470527438}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &434036663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8366128835913195966, guid: a7fa87652e796e149bcf74bfcbfdef8f,
+    type: 3}
+  m_PrefabInstance: {fileID: 975213083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &434036664
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434036663}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 78ac9992b4d194429bd3498c10d739f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!64 &439659415
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9273,22 +9300,22 @@ PrefabInstance:
     - target: {fileID: -637995738860324583, guid: 73ffbc06802a247cfb1b26f4ee67eba8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.39049217
+      value: 0.3904922
       objectReference: {fileID: 0}
     - target: {fileID: -637995738860324583, guid: 73ffbc06802a247cfb1b26f4ee67eba8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.3724562
+      value: -0.37245622
       objectReference: {fileID: 0}
     - target: {fileID: -637995738860324583, guid: 73ffbc06802a247cfb1b26f4ee67eba8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7109992
+      value: 0.71099925
       objectReference: {fileID: 0}
     - target: {fileID: -637995738860324583, guid: 73ffbc06802a247cfb1b26f4ee67eba8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.45085734
+      value: -0.45085737
       objectReference: {fileID: 0}
     - target: {fileID: -637995738860324583, guid: 73ffbc06802a247cfb1b26f4ee67eba8,
         type: 3}
@@ -9354,7 +9381,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 6511cef017d4a4449988ae6158cb626c, type: 2}
+      objectReference: {fileID: 9100000, guid: c483f1f34efcf43e6b996e0537cdecb2, type: 2}
     - target: {fileID: 8937935762075613597, guid: 73ffbc06802a247cfb1b26f4ee67eba8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11470,17 +11497,17 @@ PrefabInstance:
     - target: {fileID: 5650210284594626767, guid: a7fa87652e796e149bcf74bfcbfdef8f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 40.88581
+      value: 167.043
       objectReference: {fileID: 0}
     - target: {fileID: 5650210284594626767, guid: a7fa87652e796e149bcf74bfcbfdef8f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.6545127
+      value: 180.091
       objectReference: {fileID: 0}
     - target: {fileID: 5650210284594626767, guid: a7fa87652e796e149bcf74bfcbfdef8f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -179.07597
+      value: 0.5130005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11498,6 +11525,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 975213089}
+    - targetCorrespondingSourceObject: {fileID: 8366128835913195966, guid: a7fa87652e796e149bcf74bfcbfdef8f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 434036664}
     - targetCorrespondingSourceObject: {fileID: 7643563613521071415, guid: a7fa87652e796e149bcf74bfcbfdef8f,
         type: 3}
       insertIndex: -1
@@ -11569,7 +11600,7 @@ Animation:
   serializedVersion: 3
   m_Animation: {fileID: 0}
   m_Animations:
-  - {fileID: 7400000, guid: 960507e4862c44b3e971772d8e906467, type: 2}
+  - {fileID: 7400000, guid: 13206abf70687475ba9b80615b084234, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -24894,7 +24925,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: f56b48c3ab7f540e8a3dcfcbf828948e, type: 2}
+      objectReference: {fileID: 9100000, guid: 428a7fb3c6f1c4a7fa568f0cbb292875, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
