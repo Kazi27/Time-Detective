@@ -28,7 +28,7 @@ public class ClickHandler : MonoBehaviour
     {
         if(!captionDisplayed)
         {
-            Debug.Log("This is the hieroglyphic of the bird that represents the letter I");
+            Debug.Log("This is the hieroglyphic of the bird that represents the letter A");
 
             captionDisplayed = true;
         }
