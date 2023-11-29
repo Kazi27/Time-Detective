@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
-public class nextscene : MonoBehaviour
+public class SceneObjectTrigger : MonoBehaviour
 {
-    public string sceneName;
+    public UnityEvent onTrigger;
  
- void OnTriggerEnter(Collider other){
-  if(other.CompareTag("Player")){
-   SceneManager.LoadScene(sceneName);
-  }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            onTrigger.Invoke();
+        }
+    }
  }
-}

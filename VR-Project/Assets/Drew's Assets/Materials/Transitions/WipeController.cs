@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class WipeController : MonoBehaviour
 {
@@ -12,14 +13,13 @@ public class WipeController : MonoBehaviour
     private bool _isIn = false;
 
     public float circleSize = 0;
+    public string nextSceneName;
 
     // Start is called before the first frame update
     void Start()
     {
-
         _animator = gameObject.GetComponent<Animator>();
         _image = gameObject.GetComponent<Image>();
-
     }
 
     public void AnimateIn()
@@ -33,22 +33,28 @@ public class WipeController : MonoBehaviour
         _animator.SetTrigger(name:"Out");
         _isIn = false;
     }
+    public void StartTransition()
+    {
+        if(_isIn)
+        {
+            AnimateOut();
+            StartCoroutine(LoadNextSceneDelayed());
+        }
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)) //trigger for transition
-        {
-            if (_isIn)
-            {
-                AnimateOut();
-            }
-            else
-            {
-                AnimateIn();
-            }
+        if(!_isIn){
+            AnimateIn();
         }
-
         _image.materialForRendering.SetFloat(_circleSizeId, circleSize);
     }
+
+    IEnumerator LoadNextSceneDelayed()
+    {
+        yield return new WaitForSeconds(0);
+        SceneManager.LoadScene(nextSceneName);
+    }
+
 }
