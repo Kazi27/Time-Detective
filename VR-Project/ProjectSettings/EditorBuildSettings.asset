@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/DaVinci3.unity
     guid: dbc591569d2bb40afb6100e70994bfc7
-  - enabled: 0
+  - enabled: 1
     path: Assets/NewYork.unity
     guid: d642c7cb573ec4c308723e825e90787e
   - enabled: 0
