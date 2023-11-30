@@ -4209,7 +4209,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 84342e4732fb341718ef7ce545c5eb63,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.040688
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84342e4732fb341718ef7ce545c5eb63,
         type: 3}
@@ -4259,6 +4259,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 269942675}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 84342e4732fb341718ef7ce545c5eb63,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 269942677}
   m_SourcePrefab: {fileID: 100100000, guid: 84342e4732fb341718ef7ce545c5eb63, type: 3}
 --- !u!1 &269942674 stripped
 GameObject:
@@ -4276,7 +4280,7 @@ Animator:
   m_GameObject: {fileID: 269942674}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a37a66fbada89434fbed3aaf34849629, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8eb504723a60e478abec028d06c51d69, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4287,6 +4291,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!320 &269942677
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269942674}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 4adc8fd6f9d984c09b7a18c73a00f22b, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -8625721681287850688, guid: 4adc8fd6f9d984c09b7a18c73a00f22b, type: 2}
+    value: {fileID: 269942675}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &274887976
 GameObject:
   m_ObjectHideFlags: 0
