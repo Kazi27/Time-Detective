@@ -26501,12 +26501,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 0, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1198271024 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1154742213144369958, guid: 6b2f46374e07baa41877713a3c3a021e,
-    type: 3}
-  m_PrefabInstance: {fileID: 3824631944394906203}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1198271025 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1600456628242526605, guid: 6b2f46374e07baa41877713a3c3a021e,
@@ -35584,7 +35578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16824c78781440f49a209b0ea4979f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popupCanvasPrefab: {fileID: 1198271024}
+  popupCanvasPrefab: {fileID: 1872397523}
 --- !u!1001 &1654764249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45222,6 +45216,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 0, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1872397523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7533202471979868981, guid: 6b2f46374e07baa41877713a3c3a021e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3824631944394906203}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1876564029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51502,6 +51502,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RenderMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014081686884304943, guid: 6b2f46374e07baa41877713a3c3a021e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014081686884304943, guid: 6b2f46374e07baa41877713a3c3a021e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -211
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
