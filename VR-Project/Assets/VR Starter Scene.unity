@@ -15037,9 +15037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a7a5f6ea9bc3471e889a74136996b34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onTrigger:
-    m_PersistentCalls:
-      m_Calls: []
+  sceneName: 
 --- !u!135 &874349630
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -28276,16 +28274,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473647837}
-  m_LocalRotation: {x: -0.00805872, y: 0.7070609, z: -0.7070609, w: -0.00805872}
-  m_LocalPosition: {x: 0, y: 0, z: 4.5751076}
-  m_LocalScale: {x: 2.857142, y: 2.8571424, z: 2.8571427}
+  m_LocalRotation: {x: -0.005627343, y: 0.7070651, z: -0.70705855, w: -0.0097793285}
+  m_LocalPosition: {x: 0, y: 0, z: 4.6579604}
+  m_LocalScale: {x: 2.8571427, y: 2.8571432, z: 2.8571436}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1698777219}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: -1.306}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.99, y: 0.4}
+  m_AnchoredPosition: {x: -24.985521, y: 0.40008783}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1473647839
@@ -39401,3 +39399,4 @@ SceneRoots:
   - {fileID: 1440778100}
   - {fileID: 269942673}
   - {fileID: 1698777218}
+  - {fileID: 1473647838}
