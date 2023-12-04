@@ -1,157 +1,449 @@
 fileFormatVersion: 2
 guid: 0fe3ac2ca2e0d7c4287a01044e818b27
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: PT_Medieval_Head
-    100002: PT_Medieval_HeadTop
-    100004: PT_Medieval_Hips
-    100006: PT_Medieval_Large_Shield_slot
-    100008: PT_Medieval_Left_Hand_Weapon_slot
-    100010: PT_Medieval_LeftArm
-    100012: PT_Medieval_LeftCape
-    100014: PT_Medieval_LeftCape2
-    100016: PT_Medieval_LeftCape3
-    100018: PT_Medieval_LeftCape4
-    100020: PT_Medieval_LeftFoot
-    100022: PT_Medieval_LeftForeArm
-    100024: PT_Medieval_LeftHand
-    100026: PT_Medieval_LeftHandIndex1
-    100028: PT_Medieval_LeftHandIndex2
-    100030: PT_Medieval_LeftHandIndex3
-    100032: PT_Medieval_LeftHandMiddle1
-    100034: PT_Medieval_LeftHandMiddle2
-    100036: PT_Medieval_LeftHandMiddle3
-    100038: PT_Medieval_LeftHandPinky1
-    100040: PT_Medieval_LeftHandPinky2
-    100042: PT_Medieval_LeftHandPinky3
-    100044: PT_Medieval_LeftHandRing1
-    100046: PT_Medieval_LeftHandRing2
-    100048: PT_Medieval_LeftHandRing3
-    100050: PT_Medieval_LeftHandThumb1
-    100052: PT_Medieval_LeftHandThumb2
-    100054: PT_Medieval_LeftHandThumb3
-    100056: PT_Medieval_LeftLeg
-    100058: PT_Medieval_LeftShoulder
-    100060: PT_Medieval_LeftToe
-    100062: PT_Medieval_LeftUpLeg
-    100064: PT_Medieval_Long_Bow_slot
-    100066: PT_Medieval_Medium_Bow_slot
-    100068: PT_Medieval_Medium_Shield_slot
-    100070: PT_Medieval_Neck
-    100072: //RootNode
-    100074: PT_Medieval_Quiver_slot
-    100076: PT_Medieval_Right_Hand_Weapon_slot
-    100078: PT_Medieval_RightArm
-    100080: PT_Medieval_RightCape
-    100082: PT_Medieval_RightCape2
-    100084: PT_Medieval_RightCape3
-    100086: PT_Medieval_RightCape4
-    100088: PT_Medieval_RightFoot
-    100090: PT_Medieval_RightForeArm
-    100092: PT_Medieval_RightHand
-    100094: PT_Medieval_RightHandIndex1
-    100096: PT_Medieval_RightHandIndex2
-    100098: PT_Medieval_RightHandIndex3
-    100100: PT_Medieval_RightHandMiddle1
-    100102: PT_Medieval_RightHandMiddle2
-    100104: PT_Medieval_RightHandMiddle3
-    100106: PT_Medieval_RightHandPinky1
-    100108: PT_Medieval_RightHandPinky2
-    100110: PT_Medieval_RightHandPinky3
-    100112: PT_Medieval_RightHandRing1
-    100114: PT_Medieval_RightHandRing2
-    100116: PT_Medieval_RightHandRing3
-    100118: PT_Medieval_RightHandThumb1
-    100120: PT_Medieval_RightHandThumb2
-    100122: PT_Medieval_RightHandThumb3
-    100124: PT_Medieval_RightLeg
-    100126: PT_Medieval_RightShoulder
-    100128: PT_Medieval_RightToe
-    100130: PT_Medieval_RightUpLeg
-    100132: PT_Medieval_Second_Weapon_slot
-    100134: PT_Medieval_Sheat_slot
-    100136: PT_Medieval_Small_Shield_slot
-    100138: PT_Medieval_Spine
-    100140: PT_Medieval_Spine2
-    100142: PT_Medieval_Spine3
-    400000: PT_Medieval_Head
-    400002: PT_Medieval_HeadTop
-    400004: PT_Medieval_Hips
-    400006: PT_Medieval_Large_Shield_slot
-    400008: PT_Medieval_Left_Hand_Weapon_slot
-    400010: PT_Medieval_LeftArm
-    400012: PT_Medieval_LeftCape
-    400014: PT_Medieval_LeftCape2
-    400016: PT_Medieval_LeftCape3
-    400018: PT_Medieval_LeftCape4
-    400020: PT_Medieval_LeftFoot
-    400022: PT_Medieval_LeftForeArm
-    400024: PT_Medieval_LeftHand
-    400026: PT_Medieval_LeftHandIndex1
-    400028: PT_Medieval_LeftHandIndex2
-    400030: PT_Medieval_LeftHandIndex3
-    400032: PT_Medieval_LeftHandMiddle1
-    400034: PT_Medieval_LeftHandMiddle2
-    400036: PT_Medieval_LeftHandMiddle3
-    400038: PT_Medieval_LeftHandPinky1
-    400040: PT_Medieval_LeftHandPinky2
-    400042: PT_Medieval_LeftHandPinky3
-    400044: PT_Medieval_LeftHandRing1
-    400046: PT_Medieval_LeftHandRing2
-    400048: PT_Medieval_LeftHandRing3
-    400050: PT_Medieval_LeftHandThumb1
-    400052: PT_Medieval_LeftHandThumb2
-    400054: PT_Medieval_LeftHandThumb3
-    400056: PT_Medieval_LeftLeg
-    400058: PT_Medieval_LeftShoulder
-    400060: PT_Medieval_LeftToe
-    400062: PT_Medieval_LeftUpLeg
-    400064: PT_Medieval_Long_Bow_slot
-    400066: PT_Medieval_Medium_Bow_slot
-    400068: PT_Medieval_Medium_Shield_slot
-    400070: PT_Medieval_Neck
-    400072: //RootNode
-    400074: PT_Medieval_Quiver_slot
-    400076: PT_Medieval_Right_Hand_Weapon_slot
-    400078: PT_Medieval_RightArm
-    400080: PT_Medieval_RightCape
-    400082: PT_Medieval_RightCape2
-    400084: PT_Medieval_RightCape3
-    400086: PT_Medieval_RightCape4
-    400088: PT_Medieval_RightFoot
-    400090: PT_Medieval_RightForeArm
-    400092: PT_Medieval_RightHand
-    400094: PT_Medieval_RightHandIndex1
-    400096: PT_Medieval_RightHandIndex2
-    400098: PT_Medieval_RightHandIndex3
-    400100: PT_Medieval_RightHandMiddle1
-    400102: PT_Medieval_RightHandMiddle2
-    400104: PT_Medieval_RightHandMiddle3
-    400106: PT_Medieval_RightHandPinky1
-    400108: PT_Medieval_RightHandPinky2
-    400110: PT_Medieval_RightHandPinky3
-    400112: PT_Medieval_RightHandRing1
-    400114: PT_Medieval_RightHandRing2
-    400116: PT_Medieval_RightHandRing3
-    400118: PT_Medieval_RightHandThumb1
-    400120: PT_Medieval_RightHandThumb2
-    400122: PT_Medieval_RightHandThumb3
-    400124: PT_Medieval_RightLeg
-    400126: PT_Medieval_RightShoulder
-    400128: PT_Medieval_RightToe
-    400130: PT_Medieval_RightUpLeg
-    400132: PT_Medieval_Second_Weapon_slot
-    400134: PT_Medieval_Sheat_slot
-    400136: PT_Medieval_Small_Shield_slot
-    400138: PT_Medieval_Spine
-    400140: PT_Medieval_Spine2
-    400142: PT_Medieval_Spine3
-    7400000: Take 001
-    9500000: //RootNode
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: PT_Medieval_Head
+  - first:
+      1: 100002
+    second: PT_Medieval_HeadTop
+  - first:
+      1: 100004
+    second: PT_Medieval_Hips
+  - first:
+      1: 100006
+    second: PT_Medieval_Large_Shield_slot
+  - first:
+      1: 100008
+    second: PT_Medieval_Left_Hand_Weapon_slot
+  - first:
+      1: 100010
+    second: PT_Medieval_LeftArm
+  - first:
+      1: 100012
+    second: PT_Medieval_LeftCape
+  - first:
+      1: 100014
+    second: PT_Medieval_LeftCape2
+  - first:
+      1: 100016
+    second: PT_Medieval_LeftCape3
+  - first:
+      1: 100018
+    second: PT_Medieval_LeftCape4
+  - first:
+      1: 100020
+    second: PT_Medieval_LeftFoot
+  - first:
+      1: 100022
+    second: PT_Medieval_LeftForeArm
+  - first:
+      1: 100024
+    second: PT_Medieval_LeftHand
+  - first:
+      1: 100026
+    second: PT_Medieval_LeftHandIndex1
+  - first:
+      1: 100028
+    second: PT_Medieval_LeftHandIndex2
+  - first:
+      1: 100030
+    second: PT_Medieval_LeftHandIndex3
+  - first:
+      1: 100032
+    second: PT_Medieval_LeftHandMiddle1
+  - first:
+      1: 100034
+    second: PT_Medieval_LeftHandMiddle2
+  - first:
+      1: 100036
+    second: PT_Medieval_LeftHandMiddle3
+  - first:
+      1: 100038
+    second: PT_Medieval_LeftHandPinky1
+  - first:
+      1: 100040
+    second: PT_Medieval_LeftHandPinky2
+  - first:
+      1: 100042
+    second: PT_Medieval_LeftHandPinky3
+  - first:
+      1: 100044
+    second: PT_Medieval_LeftHandRing1
+  - first:
+      1: 100046
+    second: PT_Medieval_LeftHandRing2
+  - first:
+      1: 100048
+    second: PT_Medieval_LeftHandRing3
+  - first:
+      1: 100050
+    second: PT_Medieval_LeftHandThumb1
+  - first:
+      1: 100052
+    second: PT_Medieval_LeftHandThumb2
+  - first:
+      1: 100054
+    second: PT_Medieval_LeftHandThumb3
+  - first:
+      1: 100056
+    second: PT_Medieval_LeftLeg
+  - first:
+      1: 100058
+    second: PT_Medieval_LeftShoulder
+  - first:
+      1: 100060
+    second: PT_Medieval_LeftToe
+  - first:
+      1: 100062
+    second: PT_Medieval_LeftUpLeg
+  - first:
+      1: 100064
+    second: PT_Medieval_Long_Bow_slot
+  - first:
+      1: 100066
+    second: PT_Medieval_Medium_Bow_slot
+  - first:
+      1: 100068
+    second: PT_Medieval_Medium_Shield_slot
+  - first:
+      1: 100070
+    second: PT_Medieval_Neck
+  - first:
+      1: 100072
+    second: //RootNode
+  - first:
+      1: 100074
+    second: PT_Medieval_Quiver_slot
+  - first:
+      1: 100076
+    second: PT_Medieval_Right_Hand_Weapon_slot
+  - first:
+      1: 100078
+    second: PT_Medieval_RightArm
+  - first:
+      1: 100080
+    second: PT_Medieval_RightCape
+  - first:
+      1: 100082
+    second: PT_Medieval_RightCape2
+  - first:
+      1: 100084
+    second: PT_Medieval_RightCape3
+  - first:
+      1: 100086
+    second: PT_Medieval_RightCape4
+  - first:
+      1: 100088
+    second: PT_Medieval_RightFoot
+  - first:
+      1: 100090
+    second: PT_Medieval_RightForeArm
+  - first:
+      1: 100092
+    second: PT_Medieval_RightHand
+  - first:
+      1: 100094
+    second: PT_Medieval_RightHandIndex1
+  - first:
+      1: 100096
+    second: PT_Medieval_RightHandIndex2
+  - first:
+      1: 100098
+    second: PT_Medieval_RightHandIndex3
+  - first:
+      1: 100100
+    second: PT_Medieval_RightHandMiddle1
+  - first:
+      1: 100102
+    second: PT_Medieval_RightHandMiddle2
+  - first:
+      1: 100104
+    second: PT_Medieval_RightHandMiddle3
+  - first:
+      1: 100106
+    second: PT_Medieval_RightHandPinky1
+  - first:
+      1: 100108
+    second: PT_Medieval_RightHandPinky2
+  - first:
+      1: 100110
+    second: PT_Medieval_RightHandPinky3
+  - first:
+      1: 100112
+    second: PT_Medieval_RightHandRing1
+  - first:
+      1: 100114
+    second: PT_Medieval_RightHandRing2
+  - first:
+      1: 100116
+    second: PT_Medieval_RightHandRing3
+  - first:
+      1: 100118
+    second: PT_Medieval_RightHandThumb1
+  - first:
+      1: 100120
+    second: PT_Medieval_RightHandThumb2
+  - first:
+      1: 100122
+    second: PT_Medieval_RightHandThumb3
+  - first:
+      1: 100124
+    second: PT_Medieval_RightLeg
+  - first:
+      1: 100126
+    second: PT_Medieval_RightShoulder
+  - first:
+      1: 100128
+    second: PT_Medieval_RightToe
+  - first:
+      1: 100130
+    second: PT_Medieval_RightUpLeg
+  - first:
+      1: 100132
+    second: PT_Medieval_Second_Weapon_slot
+  - first:
+      1: 100134
+    second: PT_Medieval_Sheat_slot
+  - first:
+      1: 100136
+    second: PT_Medieval_Small_Shield_slot
+  - first:
+      1: 100138
+    second: PT_Medieval_Spine
+  - first:
+      1: 100140
+    second: PT_Medieval_Spine2
+  - first:
+      1: 100142
+    second: PT_Medieval_Spine3
+  - first:
+      4: 400000
+    second: PT_Medieval_Head
+  - first:
+      4: 400002
+    second: PT_Medieval_HeadTop
+  - first:
+      4: 400004
+    second: PT_Medieval_Hips
+  - first:
+      4: 400006
+    second: PT_Medieval_Large_Shield_slot
+  - first:
+      4: 400008
+    second: PT_Medieval_Left_Hand_Weapon_slot
+  - first:
+      4: 400010
+    second: PT_Medieval_LeftArm
+  - first:
+      4: 400012
+    second: PT_Medieval_LeftCape
+  - first:
+      4: 400014
+    second: PT_Medieval_LeftCape2
+  - first:
+      4: 400016
+    second: PT_Medieval_LeftCape3
+  - first:
+      4: 400018
+    second: PT_Medieval_LeftCape4
+  - first:
+      4: 400020
+    second: PT_Medieval_LeftFoot
+  - first:
+      4: 400022
+    second: PT_Medieval_LeftForeArm
+  - first:
+      4: 400024
+    second: PT_Medieval_LeftHand
+  - first:
+      4: 400026
+    second: PT_Medieval_LeftHandIndex1
+  - first:
+      4: 400028
+    second: PT_Medieval_LeftHandIndex2
+  - first:
+      4: 400030
+    second: PT_Medieval_LeftHandIndex3
+  - first:
+      4: 400032
+    second: PT_Medieval_LeftHandMiddle1
+  - first:
+      4: 400034
+    second: PT_Medieval_LeftHandMiddle2
+  - first:
+      4: 400036
+    second: PT_Medieval_LeftHandMiddle3
+  - first:
+      4: 400038
+    second: PT_Medieval_LeftHandPinky1
+  - first:
+      4: 400040
+    second: PT_Medieval_LeftHandPinky2
+  - first:
+      4: 400042
+    second: PT_Medieval_LeftHandPinky3
+  - first:
+      4: 400044
+    second: PT_Medieval_LeftHandRing1
+  - first:
+      4: 400046
+    second: PT_Medieval_LeftHandRing2
+  - first:
+      4: 400048
+    second: PT_Medieval_LeftHandRing3
+  - first:
+      4: 400050
+    second: PT_Medieval_LeftHandThumb1
+  - first:
+      4: 400052
+    second: PT_Medieval_LeftHandThumb2
+  - first:
+      4: 400054
+    second: PT_Medieval_LeftHandThumb3
+  - first:
+      4: 400056
+    second: PT_Medieval_LeftLeg
+  - first:
+      4: 400058
+    second: PT_Medieval_LeftShoulder
+  - first:
+      4: 400060
+    second: PT_Medieval_LeftToe
+  - first:
+      4: 400062
+    second: PT_Medieval_LeftUpLeg
+  - first:
+      4: 400064
+    second: PT_Medieval_Long_Bow_slot
+  - first:
+      4: 400066
+    second: PT_Medieval_Medium_Bow_slot
+  - first:
+      4: 400068
+    second: PT_Medieval_Medium_Shield_slot
+  - first:
+      4: 400070
+    second: PT_Medieval_Neck
+  - first:
+      4: 400072
+    second: //RootNode
+  - first:
+      4: 400074
+    second: PT_Medieval_Quiver_slot
+  - first:
+      4: 400076
+    second: PT_Medieval_Right_Hand_Weapon_slot
+  - first:
+      4: 400078
+    second: PT_Medieval_RightArm
+  - first:
+      4: 400080
+    second: PT_Medieval_RightCape
+  - first:
+      4: 400082
+    second: PT_Medieval_RightCape2
+  - first:
+      4: 400084
+    second: PT_Medieval_RightCape3
+  - first:
+      4: 400086
+    second: PT_Medieval_RightCape4
+  - first:
+      4: 400088
+    second: PT_Medieval_RightFoot
+  - first:
+      4: 400090
+    second: PT_Medieval_RightForeArm
+  - first:
+      4: 400092
+    second: PT_Medieval_RightHand
+  - first:
+      4: 400094
+    second: PT_Medieval_RightHandIndex1
+  - first:
+      4: 400096
+    second: PT_Medieval_RightHandIndex2
+  - first:
+      4: 400098
+    second: PT_Medieval_RightHandIndex3
+  - first:
+      4: 400100
+    second: PT_Medieval_RightHandMiddle1
+  - first:
+      4: 400102
+    second: PT_Medieval_RightHandMiddle2
+  - first:
+      4: 400104
+    second: PT_Medieval_RightHandMiddle3
+  - first:
+      4: 400106
+    second: PT_Medieval_RightHandPinky1
+  - first:
+      4: 400108
+    second: PT_Medieval_RightHandPinky2
+  - first:
+      4: 400110
+    second: PT_Medieval_RightHandPinky3
+  - first:
+      4: 400112
+    second: PT_Medieval_RightHandRing1
+  - first:
+      4: 400114
+    second: PT_Medieval_RightHandRing2
+  - first:
+      4: 400116
+    second: PT_Medieval_RightHandRing3
+  - first:
+      4: 400118
+    second: PT_Medieval_RightHandThumb1
+  - first:
+      4: 400120
+    second: PT_Medieval_RightHandThumb2
+  - first:
+      4: 400122
+    second: PT_Medieval_RightHandThumb3
+  - first:
+      4: 400124
+    second: PT_Medieval_RightLeg
+  - first:
+      4: 400126
+    second: PT_Medieval_RightShoulder
+  - first:
+      4: 400128
+    second: PT_Medieval_RightToe
+  - first:
+      4: 400130
+    second: PT_Medieval_RightUpLeg
+  - first:
+      4: 400132
+    second: PT_Medieval_Second_Weapon_slot
+  - first:
+      4: 400134
+    second: PT_Medieval_Sheat_slot
+  - first:
+      4: 400136
+    second: PT_Medieval_Small_Shield_slot
+  - first:
+      4: 400138
+    second: PT_Medieval_Spine
+  - first:
+      4: 400140
+    second: PT_Medieval_Spine2
+  - first:
+      4: 400142
+    second: PT_Medieval_Spine3
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -160,6 +452,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: <Root Transform>
     rigImportErrors: 
     rigImportWarnings: 
@@ -168,6 +461,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -179,6 +473,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Take 001
       takeName: Take 001
+      internalID: 0
       firstFrame: 344
       lastFrame: 353
       wrapMode: 0
@@ -187,7 +482,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -210,32 +505,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: PT_Medieval_Hips
       humanName: Hips
@@ -1021,14 +1333,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
