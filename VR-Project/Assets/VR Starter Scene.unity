@@ -36948,13 +36948,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473647837}
-  m_LocalRotation: {x: -0.005627343, y: 0.7070651, z: -0.70705855, w: -0.0097793285}
+  m_LocalRotation: {x: -0.0006970307, y: 0.70711607, z: -0.70708054, w: -0.0048488695}
   m_LocalPosition: {x: 0, y: 0, z: 9.3}
   m_LocalScale: {x: 5.7142844, y: 5.7142863, z: 5.7142878}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1032991490}
-  m_LocalEulerAnglesHint: {x: 90, y: 180, z: -1.306}
+  m_LocalEulerAnglesHint: {x: 90.336, y: 89.735, z: -90.715}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -50.3, y: 0.35}
@@ -36981,11 +36981,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Paperman has a favorite number. \n\nSubtract kyle from flowers. \n\nDo
-    16 mod paintings. \n\nGet einstein's favorite number. With all of that obtained,
-    come join me in the land of tutankhamun"
+    16 mod paintings\n\nGet einstein's favorite number. \n\nWith all of that obtained,
+    come join me in the land of tutankhamun -- do you even know where he's from bro?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -37045,7 +37045,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.1136589, y: 1.024805, z: 18.77245, w: 3.8073678}
+  m_margin: {x: 1.1213036, y: 0.8929876, z: 18.749691, w: 3.933878}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -37074,7 +37074,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
