@@ -6293,7 +6293,7 @@ Transform:
   m_GameObject: {fileID: 227207188}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.2, y: -2, z: 0.5}
+  m_LocalPosition: {x: -3.81, y: 0, z: -0}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16966,19 +16966,19 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: caac9f639cd2a2e48b1f5bb7c4ae6544,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 786383478}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: caac9f639cd2a2e48b1f5bb7c4ae6544,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 786383477}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: caac9f639cd2a2e48b1f5bb7c4ae6544,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 786383476}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: caac9f639cd2a2e48b1f5bb7c4ae6544,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 786383483}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: caac9f639cd2a2e48b1f5bb7c4ae6544,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 786383492}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: caac9f639cd2a2e48b1f5bb7c4ae6544,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 786383491}
   m_SourcePrefab: {fileID: 100100000, guid: caac9f639cd2a2e48b1f5bb7c4ae6544, type: 3}
 --- !u!1 &512289366 stripped
 GameObject:
@@ -21514,7 +21514,7 @@ Transform:
   m_GameObject: {fileID: 700579740}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.021555752, z: -0, w: 0.99976766}
-  m_LocalPosition: {x: 2.302, y: 0.91, z: -2.339}
+  m_LocalPosition: {x: 2.348, y: 0.91, z: -1.835}
   m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21693,11 +21693,11 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!65 &700579747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22155,7 +22155,7 @@ MonoBehaviour:
   onAccessDenied:
     m_PersistentCalls:
       m_Calls: []
-  keypadCombo: 15140
+  keypadCombo: 1514
   accessGrantedText: Granted
   accessDeniedText: Denied
   displayResultTime: 1
@@ -23016,7 +23016,34 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: caac9f639cd2a2e48b1f5bb7c4ae6544, type: 3}
---- !u!114 &786383477
+--- !u!65 &786383483
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786383475}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.28521502, y: 0.8182472, z: 0.06620008}
+  m_Center: {x: 0.000026492939, y: 0.13316554, z: 0.071372}
+--- !u!4 &786383487 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: caac9f639cd2a2e48b1f5bb7c4ae6544,
+    type: 3}
+  m_PrefabInstance: {fileID: 511387502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &786383491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23118,7 +23145,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 320551891}
+  m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
@@ -23126,7 +23153,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -23158,13 +23185,13 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
-  m_ForceGravityOnDetach: 1
+  m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!54 &786383478
+--- !u!54 &786383492
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23186,38 +23213,11 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 1
-  m_Constraints: 14
-  m_CollisionDetection: 3
---- !u!65 &786383483
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786383475}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.28521502, y: 0.8182472, z: 0.06620008}
-  m_Center: {x: 0.000026492939, y: 0.13316554, z: 0.071372}
---- !u!4 &786383487 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: caac9f639cd2a2e48b1f5bb7c4ae6544,
-    type: 3}
-  m_PrefabInstance: {fileID: 511387502}
-  m_PrefabAsset: {fileID: 0}
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &799735490
 GameObject:
   m_ObjectHideFlags: 0
@@ -59158,11 +59158,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wall - This is the hieroglyphic of the feather that represents the letter
-    I. Number #0.
+  m_text: This is the hieroglyphic of the feather that represents the letter I. Number
+    unknown.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d4e545a386634084d9b929c8bed09537, type: 2}
+  m_sharedMaterial: {fileID: 3506689065066814269, guid: d4e545a386634084d9b929c8bed09537,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -59251,7 +59252,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 3506689065066814269, guid: d4e545a386634084d9b929c8bed09537, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -59326,7 +59327,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.4, y: 20}
+  m_AnchoredPosition: {x: 0.4, y: -2.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2140693703
@@ -59349,7 +59350,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ITALY
+  m_text: 'Look back at the descriptions you saw:
+
+    Falcon
+
+    Bread Bun
+
+    Feathers
+
+    Lion
+
+    Feather
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -59376,13 +59389,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 1024
   m_textAlignment: 65535
