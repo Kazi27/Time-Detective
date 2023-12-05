@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/VR Starter Scene.unity
     guid: 244e7bb23377d430babd3b979f782412
   - enabled: 0
@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/DaVinci3.unity
     guid: dbc591569d2bb40afb6100e70994bfc7
-  - enabled: 0
+  - enabled: 1
     path: Assets/NewYork.unity
     guid: d642c7cb573ec4c308723e825e90787e
   - enabled: 0
