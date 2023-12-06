@@ -4727,7 +4727,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a7a5f6ea9bc3471e889a74136996b34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  onTrigger:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &178726612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17969,7 +17971,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 126
@@ -21693,11 +21695,11 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!65 &700579747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23126,7 +23128,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -23186,11 +23188,11 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 1
-  m_Constraints: 14
-  m_CollisionDetection: 3
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!65 &786383483
 BoxCollider:
   m_ObjectHideFlags: 0
