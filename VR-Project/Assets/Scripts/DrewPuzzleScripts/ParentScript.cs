@@ -5,7 +5,9 @@ using UnityEngine;
 public class ParentScript : MonoBehaviour
 {
     public string colliderTag = "Puzzle Cube";
-    public GameObject objectToAppear;
+    //public GameObject objectToAppear;
+    public Collider coll;
+    public GameObject objectToOpen;
 
     private ColliderScript[] colliders;
 
@@ -15,7 +17,7 @@ public class ParentScript : MonoBehaviour
         colliders = GetComponentsInChildren<ColliderScript>();
 
         //Deactivate the portal at the start
-        DeactivatePortal();
+        //DeactivatePortal();
     }
 
     void Update()
@@ -43,26 +45,32 @@ public class ParentScript : MonoBehaviour
 
     void DoSomething()
         {
-            // Your action when all correct colliders are triggered
+            
             Debug.Log("All specified colliders triggered!");
 
             // Activate the portal
-            ActivatePortal();
+            OpenDrawer();
         }
 
-        void ActivatePortal()
+        void OpenDrawer()
         {
-            if (objectToAppear != null)
-            {
-                objectToAppear.SetActive(true); // Activate the object
-            }
+            coll.enabled = false;  //remove block
+            objectToOpen.transform.position = new Vector3(-0.237894699f,-0.144210547f,-0.209999993f);
         }
 
-        void DeactivatePortal()
-        {
-            if (objectToAppear != null)
-            {
-                objectToAppear.SetActive(false); // Deactivate the object
-            }
-        }
+        // void ActivatePortal()
+        // {
+        //     if (objectToAppear != null)
+        //     {
+        //         objectToAppear.SetActive(true); // Activate the object
+        //     }
+        // }
+
+        // void DeactivatePortal()
+        // {
+        //     if (objectToAppear != null)
+        //     {
+        //         objectToAppear.SetActive(false); // Deactivate the object
+        //     }
+        // }
     }
