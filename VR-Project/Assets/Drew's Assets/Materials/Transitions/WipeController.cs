@@ -53,8 +53,8 @@ public class WipeController : MonoBehaviour
 
     IEnumerator LoadNextSceneDelayed()
     {
-        yield return new WaitForSeconds(0);
-        SceneManager.LoadScene(nextSceneName);
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadSceneAsync(nextSceneName);
     }
 
 }
