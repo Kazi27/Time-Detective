@@ -16,7 +16,7 @@ public class DescriptionOnHover : MonoBehaviour
             Debug.LogError("XRGrabInteractable component not found on the GameObject."); } }
     private void OnHoverEnter(XRBaseInteractor interactor) { 
         isHovering = true; 
-        DisplayDescription("I love cheese"); }
+        DisplayDescription("The thief is a menace! He loves cats!"); }
     private void OnHoverExit(XRBaseInteractor interactor) { 
         isHovering = false; 
         HideDescription(); }
