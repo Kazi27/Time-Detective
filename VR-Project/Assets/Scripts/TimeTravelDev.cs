@@ -13,10 +13,8 @@ namespace Keyboard
         public AudioSource errorClip;
         public GameObject objectToAppear;
 
-        // Assuming outputField is a Text or InputField component in your scene
+        //The keyboard contains an output field and will need to be placed here.
         public TMP_InputField outputField;
-
-        // Assuming enterButton is a Button component in your scene
         public Button enterButton;
 
         private void Awake()
@@ -66,7 +64,7 @@ namespace Keyboard
             }
             else
             {
-                errorClip.Play(); // Use lowercase Play
+                errorClip.Play();
             }
         }
 

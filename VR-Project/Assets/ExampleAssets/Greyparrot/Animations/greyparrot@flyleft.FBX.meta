@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: 67881ada8022e7c4e83a047cff0850c8
+timeCreated: 1549276754
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: greyparrot_Body_mesh
+    100004: greyparrot_COM_ctrl
+    100006: greyparrot_Head_bone
+    100008: greyparrot_Ilium_bone
+    100010: greyparrot_l_Feather1_bone
+    100012: greyparrot_l_Feather2_bone
+    100014: greyparrot_l_Femur_bone
+    100016: greyparrot_l_FingerI_1_bone
+    100018: greyparrot_l_FingerI_2_bone
+    100020: greyparrot_l_FingerI_3_bone
+    100022: greyparrot_l_FingerII_1_bone
+    100024: greyparrot_l_FingerII_2_bone
+    100026: greyparrot_l_FingerII_3_bone
+    100028: greyparrot_l_FingerIII_1_bone
+    100030: greyparrot_l_FingerIII_2_bone
+    100032: greyparrot_l_FingerIII_3_bone
+    100034: greyparrot_l_FingerVI_1_bone
+    100036: greyparrot_l_FingerVI_2_bone
+    100038: greyparrot_l_FingerVI_3_bone
+    100040: greyparrot_l_Foot_bone
+    100042: greyparrot_l_Humerus_bone
+    100044: greyparrot_l_Metacarpal_bone
+    100046: greyparrot_l_Phalange_bone
+    100048: greyparrot_l_Tarsus_bone
+    100050: greyparrot_l_Tibia_bone
+    100052: greyparrot_l_Ulna_bone
+    100054: greyparrot_LowerMandible_bone
+    100056: greyparrot_Main_ctrl
+    100058: greyparrot_Neck_bone
+    100060: greyparrot_NeckBase_bone
+    100062: greyparrot_Pubis_bone
+    100064: greyparrot_r_Feather1_bone
+    100066: greyparrot_r_Feather2_bone
+    100068: greyparrot_r_Femur_bone
+    100070: greyparrot_r_FingerI_1_bone
+    100072: greyparrot_r_FingerI_2_bone
+    100074: greyparrot_r_FingerI_3_bone
+    100076: greyparrot_r_FingerII_1_bone
+    100078: greyparrot_r_FingerII_2_bone
+    100080: greyparrot_r_FingerII_3_bone
+    100082: greyparrot_r_FingerIII_1_bone
+    100084: greyparrot_r_FingerIII_2_bone
+    100086: greyparrot_r_FingerIII_3_bone
+    100088: greyparrot_r_FingerVI_1_bone
+    100090: greyparrot_r_FingerVI_2_bone
+    100092: greyparrot_r_FingerVI_3_bone
+    100094: greyparrot_r_Foot_bone
+    100096: greyparrot_r_Humerus_bone
+    100098: greyparrot_r_Metacarpal_bone
+    100100: greyparrot_r_Phalange_bone
+    100102: greyparrot_r_Tarsus_bone
+    100104: greyparrot_r_Tibia_bone
+    100106: greyparrot_r_Ulna_bone
+    100108: greyparrot_Scapula_bone
+    100110: greyparrot_Tail_bone
+    100112: greyparrot_UpperMandible-nub_bone
+    100114: greyparrot_UpperMandible_bone
+    400000: //RootNode
+    400002: greyparrot_Body_mesh
+    400004: greyparrot_COM_ctrl
+    400006: greyparrot_Head_bone
+    400008: greyparrot_Ilium_bone
+    400010: greyparrot_l_Feather1_bone
+    400012: greyparrot_l_Feather2_bone
+    400014: greyparrot_l_Femur_bone
+    400016: greyparrot_l_FingerI_1_bone
+    400018: greyparrot_l_FingerI_2_bone
+    400020: greyparrot_l_FingerI_3_bone
+    400022: greyparrot_l_FingerII_1_bone
+    400024: greyparrot_l_FingerII_2_bone
+    400026: greyparrot_l_FingerII_3_bone
+    400028: greyparrot_l_FingerIII_1_bone
+    400030: greyparrot_l_FingerIII_2_bone
+    400032: greyparrot_l_FingerIII_3_bone
+    400034: greyparrot_l_FingerVI_1_bone
+    400036: greyparrot_l_FingerVI_2_bone
+    400038: greyparrot_l_FingerVI_3_bone
+    400040: greyparrot_l_Foot_bone
+    400042: greyparrot_l_Humerus_bone
+    400044: greyparrot_l_Metacarpal_bone
+    400046: greyparrot_l_Phalange_bone
+    400048: greyparrot_l_Tarsus_bone
+    400050: greyparrot_l_Tibia_bone
+    400052: greyparrot_l_Ulna_bone
+    400054: greyparrot_LowerMandible_bone
+    400056: greyparrot_Main_ctrl
+    400058: greyparrot_Neck_bone
+    400060: greyparrot_NeckBase_bone
+    400062: greyparrot_Pubis_bone
+    400064: greyparrot_r_Feather1_bone
+    400066: greyparrot_r_Feather2_bone
+    400068: greyparrot_r_Femur_bone
+    400070: greyparrot_r_FingerI_1_bone
+    400072: greyparrot_r_FingerI_2_bone
+    400074: greyparrot_r_FingerI_3_bone
+    400076: greyparrot_r_FingerII_1_bone
+    400078: greyparrot_r_FingerII_2_bone
+    400080: greyparrot_r_FingerII_3_bone
+    400082: greyparrot_r_FingerIII_1_bone
+    400084: greyparrot_r_FingerIII_2_bone
+    400086: greyparrot_r_FingerIII_3_bone
+    400088: greyparrot_r_FingerVI_1_bone
+    400090: greyparrot_r_FingerVI_2_bone
+    400092: greyparrot_r_FingerVI_3_bone
+    400094: greyparrot_r_Foot_bone
+    400096: greyparrot_r_Humerus_bone
+    400098: greyparrot_r_Metacarpal_bone
+    400100: greyparrot_r_Phalange_bone
+    400102: greyparrot_r_Tarsus_bone
+    400104: greyparrot_r_Tibia_bone
+    400106: greyparrot_r_Ulna_bone
+    400108: greyparrot_Scapula_bone
+    400110: greyparrot_Tail_bone
+    400112: greyparrot_UpperMandible-nub_bone
+    400114: greyparrot_UpperMandible_bone
+    4300000: greyparrot_Body_mesh
+    7400000: flyleft
+    9500000: //RootNode
+    13700000: greyparrot_Body_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: flyleft
+      takeName: Take 001
+      firstFrame: 401
+      lastFrame: 421
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: greyparrot_Body_mesh
+        weight: 1
+      - path: greyparrot_Main_ctrl
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerI_1_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerI_1_bone/greyparrot_l_FingerI_2_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerI_1_bone/greyparrot_l_FingerI_2_bone/greyparrot_l_FingerI_3_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerII_1_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerII_1_bone/greyparrot_l_FingerII_2_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerII_1_bone/greyparrot_l_FingerII_2_bone/greyparrot_l_FingerII_3_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerIII_1_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerIII_1_bone/greyparrot_l_FingerIII_2_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerIII_1_bone/greyparrot_l_FingerIII_2_bone/greyparrot_l_FingerIII_3_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerVI_1_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerVI_1_bone/greyparrot_l_FingerVI_2_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_l_Femur_bone/greyparrot_l_Tibia_bone/greyparrot_l_Tarsus_bone/greyparrot_l_Foot_bone/greyparrot_l_FingerVI_1_bone/greyparrot_l_FingerVI_2_bone/greyparrot_l_FingerVI_3_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Pubis_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Pubis_bone/greyparrot_Tail_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Pubis_bone/greyparrot_Tail_bone/greyparrot_l_Feather1_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Pubis_bone/greyparrot_Tail_bone/greyparrot_l_Feather2_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Pubis_bone/greyparrot_Tail_bone/greyparrot_r_Feather1_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Pubis_bone/greyparrot_Tail_bone/greyparrot_r_Feather2_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerI_1_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerI_1_bone/greyparrot_r_FingerI_2_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerI_1_bone/greyparrot_r_FingerI_2_bone/greyparrot_r_FingerI_3_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerII_1_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerII_1_bone/greyparrot_r_FingerII_2_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerII_1_bone/greyparrot_r_FingerII_2_bone/greyparrot_r_FingerII_3_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerIII_1_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerIII_1_bone/greyparrot_r_FingerIII_2_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerIII_1_bone/greyparrot_r_FingerIII_2_bone/greyparrot_r_FingerIII_3_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerVI_1_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerVI_1_bone/greyparrot_r_FingerVI_2_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_r_Femur_bone/greyparrot_r_Tibia_bone/greyparrot_r_Tarsus_bone/greyparrot_r_Foot_bone/greyparrot_r_FingerVI_1_bone/greyparrot_r_FingerVI_2_bone/greyparrot_r_FingerVI_3_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_l_Humerus_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_l_Humerus_bone/greyparrot_l_Ulna_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_l_Humerus_bone/greyparrot_l_Ulna_bone/greyparrot_l_Metacarpal_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_l_Humerus_bone/greyparrot_l_Ulna_bone/greyparrot_l_Metacarpal_bone/greyparrot_l_Phalange_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_NeckBase_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_NeckBase_bone/greyparrot_Neck_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_NeckBase_bone/greyparrot_Neck_bone/greyparrot_Head_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_NeckBase_bone/greyparrot_Neck_bone/greyparrot_Head_bone/greyparrot_LowerMandible_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_NeckBase_bone/greyparrot_Neck_bone/greyparrot_Head_bone/greyparrot_UpperMandible_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_NeckBase_bone/greyparrot_Neck_bone/greyparrot_Head_bone/greyparrot_UpperMandible_bone/greyparrot_UpperMandible-nub_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_r_Humerus_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_r_Humerus_bone/greyparrot_r_Ulna_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_r_Humerus_bone/greyparrot_r_Ulna_bone/greyparrot_r_Metacarpal_bone
+        weight: 1
+      - path: greyparrot_Main_ctrl/greyparrot_COM_ctrl/greyparrot_Ilium_bone/greyparrot_Scapula_bone/greyparrot_r_Humerus_bone/greyparrot_r_Ulna_bone/greyparrot_r_Metacarpal_bone/greyparrot_r_Phalange_bone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: greyparrot_Main_ctrl
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

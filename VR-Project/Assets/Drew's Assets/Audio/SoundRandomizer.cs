@@ -5,13 +5,15 @@ using System.Collections;
 
 public class SoundRandomizer : MonoBehaviour
 {
-    public AudioClip[] sounds;
+    public AudioClip[] MetalAudio;
+    public AudioClip[] WoodAudio;
     private AudioSource source;
 
     [Range(0.1f, 0.5f)]
     public float volumeChangeMultiplier = 0.2f;
     public float pitchChangeMultiplier = 0.2f;
     public string _tag1 = "";
+    public string _tag2 = "";
 
     // Flag to track if the initial collision has occurred so we don't
     // hear audio play the second the scene starts. Most objects are 
@@ -57,7 +59,21 @@ public class SoundRandomizer : MonoBehaviour
         if (collision.collider.CompareTag(_tag1) && objectActive && canPlaySound)
         {
             // Play a random sound
-            source.clip = sounds[Random.Range(0, sounds.Length)];
+            source.clip = MetalAudio[Random.Range(0, MetalAudio.Length)];
+            source.volume = Random.Range(1 - volumeChangeMultiplier, 1);
+            source.pitch = Random.Range(1 - pitchChangeMultiplier, 1);
+            source.PlayOneShot(source.clip);
+
+            // Set the cooldown flag to false
+            canPlaySound = false;
+
+            // Start the cooldown coroutine
+            StartCoroutine(SoundCooldown());
+        }
+        if (collision.collider.CompareTag(_tag2) && objectActive && canPlaySound)
+        {
+            // Play a random sound
+            source.clip = WoodAudio[Random.Range(0, WoodAudio.Length)];
             source.volume = Random.Range(1 - volumeChangeMultiplier, 1);
             source.pitch = Random.Range(1 - pitchChangeMultiplier, 1);
             source.PlayOneShot(source.clip);
