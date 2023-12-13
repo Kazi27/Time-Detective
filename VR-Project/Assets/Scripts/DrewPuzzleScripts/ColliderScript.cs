@@ -17,7 +17,7 @@ public class ColliderScript : MonoBehaviour
         }
         else
         {
-            // Optionally, you can log a message or take some action for incorrect objects
+            //Logging for incorrect object error. Could also be used as a method to trigger something.
             Debug.Log("Incorrect object collided with the collider!");
         }
     }

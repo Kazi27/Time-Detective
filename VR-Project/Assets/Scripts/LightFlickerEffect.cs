@@ -1,9 +1,9 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-/*  Hey guys, this script ill flicker a linked light while active by changing its
+/*  Hey everyone, this script will flicker a linked light while active by changing its
 intensity between the min and max values given. The flickering can be
- sharp or smoothed depending on the value of the smoothing parameter.
+ sharp or smoothed depending on the value of the smoothing parameter. -drew
 */
 public class LightFlickerEffect : MonoBehaviour {
     [Tooltip("External light to flicker; you can leave this null if you attach script to a light")]
@@ -22,11 +22,11 @@ public class LightFlickerEffect : MonoBehaviour {
     float lastSum = 0;
 
 
-    /// <summary>
-    /// Reset the randomness and start again. You usually don't need to call
-    /// this, deactivating/reactivating is usually fine but if you want a strict
-    /// restart you can do.
-    /// </summary>
+   
+    /// This resets the randomness and then starts again. You usually don't need to call
+    /// this: deactivating/reactivating is usually fine but if you want a strict
+    /// restart you can do so.  I commented it out just as a default.
+   
     /*
     public void Reset() {
         smoothQueue.Clear();

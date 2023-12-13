@@ -4,20 +4,17 @@ using UnityEngine;
 
 public class ParentScript : MonoBehaviour
 {
-    public string colliderTag = "Puzzle Cube";
-    //public GameObject objectToAppear;
-    public Collider coll;
-    public GameObject objectToOpen;
+    public string colliderTag = "Puzzle Cube"; //default set to "Puzzle Cube" but can be changed in environment.
+    
+    public Collider coll; //collider preventing drawer from opening
+    public GameObject objectToOpen; //drawer
 
-    private ColliderScript[] colliders;
+    private ColliderScript[] colliders; //array of collider game objects.
 
     void Awake()
     {
         // Initialize colliders array with references to specific child scripts
         colliders = GetComponentsInChildren<ColliderScript>();
-
-        //Deactivate the portal at the start
-        //DeactivatePortal();
     }
 
     void Update()
@@ -25,7 +22,7 @@ public class ParentScript : MonoBehaviour
         // Check if all correct colliders are triggered
         if (CheckAllColliders())
         {
-            // Do something when all correct colliders are triggered
+            // A small bridge pattern to do something when all correct colliders are triggered
             DoSomething();
         }
     }
@@ -48,29 +45,14 @@ public class ParentScript : MonoBehaviour
             
             Debug.Log("All specified colliders triggered!");
 
-            // Activate the portal
+            // Activate the drawer for clue reveal.
             OpenDrawer();
         }
 
         void OpenDrawer()
         {
-            coll.enabled = false;  //remove block
-            objectToOpen.transform.position = new Vector3(-0.237894699f,-0.144210547f,-0.209999993f);
+            coll.enabled = false;  //remove block so drawer can slide out
+            objectToOpen.transform.position += new Vector3(0, 0, -0.2f); //move drawer out from current position
         }
 
-        // void ActivatePortal()
-        // {
-        //     if (objectToAppear != null)
-        //     {
-        //         objectToAppear.SetActive(true); // Activate the object
-        //     }
-        // }
-
-        // void DeactivatePortal()
-        // {
-        //     if (objectToAppear != null)
-        //     {
-        //         objectToAppear.SetActive(false); // Deactivate the object
-        //     }
-        // }
     }
