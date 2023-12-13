@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17276788, g: 0.21589147, b: 0.29782534, a: 1}
+  m_IndirectSpecularColor: {r: 0.17283367, g: 0.215964, b: 0.29792246, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -21615,6 +21615,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 426030968}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: 4f0287026e7863b4396823713ce11d94,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 426030969}
   m_SourcePrefab: {fileID: 100100000, guid: 4f0287026e7863b4396823713ce11d94, type: 3}
 --- !u!4 &426030963 stripped
 Transform:
@@ -21676,6 +21680,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &426030969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426030967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5c7fced76564375b3eb737b002ec52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 0}
+  activationDistance: 3
 --- !u!1 &428872102
 GameObject:
   m_ObjectHideFlags: 0
@@ -31107,6 +31126,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 945433456}
+    - targetCorrespondingSourceObject: {fileID: 128290, guid: 1cb9098d04240cd40a212f5d4858aa26,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 945433457}
   m_SourcePrefab: {fileID: 100100000, guid: 1cb9098d04240cd40a212f5d4858aa26, type: 3}
 --- !u!1 &945433452 stripped
 GameObject:
@@ -31178,6 +31201,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &945433457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945433455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5c7fced76564375b3eb737b002ec52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 0}
+  activationDistance: 3
 --- !u!1 &946004126
 GameObject:
   m_ObjectHideFlags: 0
@@ -38992,6 +39030,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1367372768}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1249234233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249234227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5c7fced76564375b3eb737b002ec52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 0}
+  activationDistance: 3
 --- !u!64 &1250563304
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41699,6 +41752,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1249234228}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 7d7d7861445375d4bb8c0530dd1ea86a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1249234233}
   m_SourcePrefab: {fileID: 100100000, guid: 7d7d7861445375d4bb8c0530dd1ea86a, type: 3}
 --- !u!1001 &1380916187
 PrefabInstance:
@@ -44118,6 +44175,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1483749783}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: b549b8076fe63524e80249248765b516,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1483749784}
   m_SourcePrefab: {fileID: 100100000, guid: b549b8076fe63524e80249248765b516, type: 3}
 --- !u!1 &1483749781 stripped
 GameObject:
@@ -44168,6 +44229,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1483749784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483749781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5c7fced76564375b3eb737b002ec52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 0}
+  activationDistance: 3
 --- !u!1001 &1483809499
 PrefabInstance:
   m_ObjectHideFlags: 0
