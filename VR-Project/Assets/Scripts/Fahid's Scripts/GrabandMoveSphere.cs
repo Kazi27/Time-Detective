@@ -12,9 +12,9 @@ public class GrabandMoveSphere : MonoBehaviour
         if (isGrabbed)
         {
             // Get the updated position of the hand controller
-            handTransform = OVRInput.GetLocalControllerTransform(OVRInput.Controller.Hand);
+            Vector3 handTransform = OVRInput.GetLocalControllerPosition(OVRInput.Controller.Hands);
             // Update the sphere's position based on the hand controller movement
-            transform.position = handTransform.position + initialOffset;
+            Quaternion handrotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.Hands);
             // Move the sphere in a circular path (you can adjust the radius and speed)
             float angle = Time.time; // You can use a different variable for a smoother rotation
             float radius = 2f;
